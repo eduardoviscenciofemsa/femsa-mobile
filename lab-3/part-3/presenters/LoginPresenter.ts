@@ -1,4 +1,4 @@
-import { UserService } from "../models/UserService";
+import { User, UserService } from "../models/UserService";
 import { LoginView } from "../views/LoginView";
 
 export class LoginPresenter {
@@ -8,7 +8,9 @@ export class LoginPresenter {
   }
 
   login(username: string, password: string) {
-    this.service.login(username, password).then((result) => {
+    const user: User = { username, password };
+
+    this.service.login(user).then((result) => {
       if (result) {
         this.view.showSuccessMsg();
       } else {

@@ -1,3 +1,5 @@
+import { Product } from "./Product";
+
 export interface ProductRepository {
   addProduct: (name: string, price: number, quantity: number) => void;
   removeProduct: (id: number) => void;

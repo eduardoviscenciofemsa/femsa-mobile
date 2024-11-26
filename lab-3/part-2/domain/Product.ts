@@ -1,4 +1,4 @@
-class Product {
+export class Product {
   private id: number;
   private name: string;
   private price: number;
@@ -25,5 +25,17 @@ class Product {
 
   getQuantity(): number {
     return this.quantity;
+  }
+
+  updateName(newName: string) {
+    this.name = newName;
+  }
+
+  updatePrice(newPrice: number) {
+    this.price = newPrice;
+  }
+
+  updateQuantity(newQuantity: number) {
+    this.quantity = newQuantity;
   }
 }

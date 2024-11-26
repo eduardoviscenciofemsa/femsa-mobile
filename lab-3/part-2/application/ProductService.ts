@@ -1,8 +1,5 @@
+import { Product } from "../domain/Product";
 import { ProductRepository } from "../domain/ProductRepository";
-import {
-  InMemoryProductRepository,
-  DatabaseProductRepository,
-} from "../infrastructure/InMemoryProductRepository";
 
 export class ProductService {
   private repository: ProductRepository;

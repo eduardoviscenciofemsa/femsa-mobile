@@ -8,7 +8,7 @@ export class ProductCatalogViewModel {
     return this._productList;
   }
 
-  set productList(newList: any[]) {
+  set productList(newList: Product[]) {
     this._productList = newList;
     this._notifyListeners();
   }

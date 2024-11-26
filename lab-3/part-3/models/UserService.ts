@@ -1,13 +1,13 @@
-type User = {
+export type User = {
   username: string;
   password: string;
 };
 
 export class UserService {
-  async login(username: string, password: string): Promise<boolean> {
+  async login(user: User): Promise<boolean> {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        if (username === "admin" && password === "admin") {
+        if (user.username === "admin" && user.password === "admin") {
           resolve(true);
         } else {
           resolve(false);
