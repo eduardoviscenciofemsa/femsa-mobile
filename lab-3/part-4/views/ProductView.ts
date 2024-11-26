@@ -15,3 +15,5 @@ console.log("Adding first product");
 list.addProduct(product1);
 console.log("Adding seccong product");
 list.addProduct(product2);
+
+list.removeListener(listener);
