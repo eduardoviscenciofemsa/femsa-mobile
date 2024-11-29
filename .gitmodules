@@ -1,6 +1,9 @@
 [submodule "Lab2"]
 	path = Lab2
 	url = https://github.com/eduardoviscenciofemsa/Lab2
-[submodule "Lab4"]
-	path = Lab4
+[submodule "Lab4Testing"]
+	path = Lab4Testing
 	url = https://github.com/eduardoviscenciofemsa/Lab4
+[submodule "Lab5"]
+	path = Lab5
+	url = https://github.com/eduardoviscenciofemsa/Lab5
