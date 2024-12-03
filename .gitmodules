@@ -7,3 +7,6 @@
 [submodule "Lab5"]
 	path = Lab5
 	url = https://github.com/eduardoviscenciofemsa/Lab5
+[submodule "lab-6"]
+	path = lab-6
+	url = https://github.com/eduardoviscenciofemsa/lab-6
